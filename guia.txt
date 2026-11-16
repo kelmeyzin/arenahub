@@ -1,0 +1,75 @@
+# ARENAHUB — GUIA PARA USAR EM OUTRO COMPUTADOR
+
+Objetivo: abrir o projeto ArenaHub em outro computador usando o GitHub.
+
+## 1. PROGRAMAS NECESSÁRIOS
+
+Instalar no novo computador:
+
+- Node.js (versão LTS): [https://nodejs.org/](https://nodejs.org/)
+- Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/) (opcional, mas recomendado).
+
+Depois de instalar, abrir o terminal e verificar:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+Se os três comandos mostrarem versões, está tudo certo.
+
+## 2. BAIXAR O ARENAHUB DO GITHUB
+
+1. Abrir meu repositório do ArenaHub no GitHub.
+2. Clicar no botão verde "Code".
+3. Copiar o endereço HTTPS.
+4. Abrir o terminal.
+5. Escolher uma pasta onde quero guardar o projeto.
+6. Executar:
+
+```bash
+git clone https://github.com/kelmeyzin/arenahub
+```
+
+Exemplo:
+
+```bash
+git clone https://github.com/kelmeyzin/arenahub.git
+```
+
+7. Entrar na pasta criada:
+
+```bash
+cd arenahub
+```
+
+## 3. INSTALAR AS DEPENDÊNCIAS
+
+Dentro da pasta do ArenaHub, executar:
+
+```bash
+npm install
+```
+
+Aguardar a instalação terminar.
+
+IMPORTANTE: fazer isso apenas na primeira configuração do projeto naquele computador, ou quando as dependências forem alteradas.
+
+## 4. ABRIR O ARENAHUB
+
+Executar:
+
+```bash
+npm run dev
+```
+
+O terminal mostrará um endereço parecido com:
+
+[http://localhost:5173/](http://localhost:5173/)
+
+Abrir esse endereço no navegador.
+
+PRONTO! O ArenaHub estará funcionando.
+
